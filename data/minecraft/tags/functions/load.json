@@ -1,6 +1,5 @@
 {
     "values": [
-		"biometunes:triggers/load",
-        "biometunes:triggers/updateunderground"
+        "biometunes:triggers/init"
     ]
 }

@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data",
+    "\\data\\biometunes",
+    "\\data\\biometunes\\functions",
+    "\\data\\biometunes\\functions\\triggers",
+    "\\data\\biometunes\\functions\\triggers\\biomes",
+    "\\data\\biometunes\\functions\\triggers\\biomes\\nether",
+    "\\data\\biometunes\\tags",
+    "\\data\\biometunes\\tags\\functions",
+    "\\data\\minecraft",
+    "\\data\\minecraft\\tags",
+    "\\data\\minecraft\\tags\\functions"
+  ],
+  "SelectedNode": "\\data\\minecraft\\tags\\functions\\load.json",
+  "PreviewInSolutionExplorer": false
+}

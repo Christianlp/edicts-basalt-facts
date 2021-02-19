@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_sapling"
 		},
 		"title": "Entered basalt delta",
-		"description": "You entered a basalt delta biome",
+		"description": "Time for an EdictsOW Basalt fact!",
 		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
 		"show_toast": false,
 		"announce_to_chat": false

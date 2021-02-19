@@ -1,6 +1,7 @@
-# Call core
-execute if score #check Instantiated matches 1.. run function biometunes:core
-execute if score #check Instantiated matches 0 run title @a actionbar ["",{"text":"Run ","color":"dark_green"},{"text":"/function #biometunes:setup","bold":true,"color":"green"},{"text":" to setup the pack","color":"dark_green"}]
+function biometunes:triggers/reset
 
-# Manage options
-function biometunes:options
+execute if score counting fact_timeouts matches 1 run scoreboard players add reset_counter fact_timeouts 1
+
+# Reset counters
+execute if score reset_counter fact_timeouts >= reset_time fact_timeouts run scoreboard players set counting fact_timeouts 0
+execute if score reset_counter fact_timeouts >= reset_time fact_timeouts run scoreboard players set reset_counter fact_timeouts 0
